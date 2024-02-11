@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/animations" as *;
+
+body {
+  background: $black;
+  transition: 0.2s ease-in;
+}
+
+.linktree-page {
+  @include gradient(bottom);
+}

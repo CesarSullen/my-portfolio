@@ -1,0 +1,51 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.btn-download {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+
+  border: 2px solid $white;
+  position: relative;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &:hover {
+    @include gradient(right);
+    color: $white;
+    border: 2px solid $primary;
+  }
+}
+
+.btn-see-more {
+  @include gradient(right);
+  color: $white;
+  position: relative;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    color: $white;
+    transform: scale(1.1);
+    box-shadow: $primary 0 0 10px 1px;
+  }
+}
+
+.btn-of-confirm {
+  background: #0990d0;
+}
+.btn-of-decline {
+  background: #9d9d9e;
+}

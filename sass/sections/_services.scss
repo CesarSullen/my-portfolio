@@ -1,0 +1,15 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.services-section {
+  @include gradient(bottom);
+}
+
+.card {
+  .card-header {
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// Colors
+$purple-dark: #6201de;
+$purple-light: #8b2dff;
+
+$blue: #2331f3;
+$black: #191818;
+
+$primary: $purple-dark;
+$secondary: $purple-light;
+$terciary: $blue;
+
+// Acordion
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+// Shadows
+$box-shadow-lg: 0 0.5rem 1rem rgba($secondary, 0.15);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
