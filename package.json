@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "purgecss --css public/css/style.css --content views/index.ejs -o public/css/purged.css",
     "styles": "sass -w sass/style.scss public/css/style.css",
