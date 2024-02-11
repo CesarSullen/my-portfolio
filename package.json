@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "purgecss --css public/css/style.css --content views/index.ejs -o public/css/purged.css",
     "styles": "sass -w sass/style.scss public/css/style.css",
     "dev": "nodemon app"
   },
