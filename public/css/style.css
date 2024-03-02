@@ -11903,6 +11903,17 @@ textarea.form-control-lg {
   background: #9d9d9e;
 }
 
+.to-appear {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.to-appear.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .display-2 {
   margin-bottom: 1rem;
 }

@@ -1,0 +1,9 @@
+.to-appear {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.2s;
+}
+.to-appear.show {
+  transform: translateY(0);
+  opacity: 1;
+}
